@@ -58,33 +58,30 @@ const questions = [
       name: 'email',
       message: 'Please enter your email address:',
     },
-]
-
-// TODO: Create a function to write README file - fs docu format, need to fix 
-function writeToFile(fileName, data) {
-    var data = 
-    fs.writeFile(fileName, data, (err) => {
-        if (err) {
-        console.error(err);
-        } else {
-        console.log('');
-        }
-    });
-}
-    
-       
+];
 
 // triggering inquirer to trigger questions
 // capturing responses as 'data' 
 // feeding data to generateMarkdown
 function init() {
     inquirer.prompt(questions).then((data) => {
-        const info = generateMarkdown(data);
-        writeToFile('README.md', info)
+        const markdownData = generateMarkdown(data);
+        writeToFile('README.md', markdownData)
         }
-    )
+    );
 }
 
+// TODO: Create a function to write README file - fs docu format, need to fix 
+function writeToFile(fileName, data) {
+ 
+  fs.writeFile(fileName, data, (err) => {
+      if (err) {
+      console.error(err);
+      } else {
+      console.log('');
+      }
+  });
+}
 
 // Function call to initialize app
 init();
