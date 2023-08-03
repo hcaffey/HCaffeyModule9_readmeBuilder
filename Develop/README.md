@@ -13,7 +13,7 @@
   - [Questions](#questions)
   
   ## Installation instructions
-  NA
+  Execute "npm run start" in the terminal, then 
   
   ## Usage info
   This Repo is public
