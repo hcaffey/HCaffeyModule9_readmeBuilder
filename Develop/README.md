@@ -1,7 +1,7 @@
-# ReadMe Builder
+# repo
  
   ## Description
-  This project allows the user to create a professional README like this one from the CLI
+  description
   
   //collating data into ToC
   ## Table of Contents
@@ -13,16 +13,16 @@
   - [Questions](#questions)
   
   ## Installation instructions
-  Execute "npm run start" in the terminal, then 
+  install info
   
   ## Usage info
-  This Repo is public
+  usage
   
   ## GitHub Contibutors
-  Hcaffey
+  contributor 1, 2, 3
   
   ## Tests for this repo
-  NA
+  test info
 
   ## License info
-  This repo uses the MIT license.
+  This repo uses the Apache 2.0 license.
