@@ -4,13 +4,13 @@
   This cli app allows users to generate a professional readme for their project
   
   ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [License](#license)
-  - [Github](#github)
-  - [Email](#email)
+  - [Installation](##installation)
+  - [Usage](##usage)
+  - [Contributing](##contributing)
+  - [Tests](##tests)
+  - [License](##icense)
+  - [Github](##github)
+  - [Email](##email)
   
   ## Installation instructions <a name="installation"></a>
   open root and run "npm start", then answer prompts
