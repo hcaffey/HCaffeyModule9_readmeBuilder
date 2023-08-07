@@ -30,29 +30,35 @@ function generateMarkdown(data) {
   ## Description
   ${data.description}
   
-  //collating data into ToC
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
-  - [Questions](#questions)
+  - [License](#license)
+  - [Github](#github)
+  - [Email](#email)
   
-  ## Installation instructions
+  ## Installation instructions <a name="installation"></a>
   ${data.installation}
   
-  ## Usage info
+  ## Usage info <a name="usage"></a>
   ${data.usage}
   
-  ## GitHub Contibutors
+  ## GitHub Contibutors <a name="contributing"></a>
   ${data.contributing}
   
-  ## Tests for this repo
+  ## Tests for this repo <a name="tests"></a>
   ${data.tests}
 
-  ## License info
-  This repo uses the ${data.license} license.`
+  ## License info <a name="license"></a>
+  This repo uses the ${data.license} license.
+  
+  ## GitHub Username <a name="github"></a>
+  ${data.username}
+
+  ## Email <a name="email"></a>
+  ${data.email}`
   
   );
 }
